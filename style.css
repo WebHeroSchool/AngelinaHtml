@@ -1,0 +1,28 @@
+body{
+	margin: 0 20%;
+}
+
+h3{
+	display: inline;
+}
+
+#to-cook{
+	border-style: dotted;
+	border-width: thin;
+	border-color: green;
+}
+
+h4{
+	display: inline;
+}
+
+#right-table-container {
+	float: right; 
+	width: 49%;
+
+}
+
+#left-table-container {
+	float: left;
+	width: 49%;
+}
