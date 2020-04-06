@@ -1,28 +1,48 @@
-body{
+.body{
 	margin: 0 20%;
+	font-family: 'Play Display', serif;
 }
-
-h3{
-	display: inline;
+.header__title {
+	text-align: center;
 }
-
-#to-cook{
-	border-style: dotted;
-	border-width: thin;
-	border-color: green;
+.header__title_paragraph {
+	text-align: center;
 }
-
-h4{
-	display: inline;
-}
-
-#right-table-container {
-	float: right; 
-	width: 49%;
-
-}
-
-#left-table-container {
+.section__left_table{
 	float: left;
 	width: 49%;
+}
+.section__title{
+	display: inline;
+	font-family: 'Pacifico',cursive;
+}
+.section__left_line {
+	background-color: green;
+	border: 0px;
+	height: 2px;
+}
+.section__left_end{
+	border-color: green;
+	border-style: dotted;
+	border-width: thin;
+	text-align: center;
+}
+.section__left_title_end{
+	display: inline;
+	text-align: center;
+}
+.section__left_img{
+	height: 50px;
+	width: 50px;
+}
+.section__right_table {
+	float: right; 
+	width: 49%;
+}
+.section__right_paragraph{
+	color: red;
+}
+.section__right_img{
+	height: 400px;
+	width: 600px;
 }
